@@ -1,0 +1,67 @@
+modo;caso;coleccion;posicion;primera;esperadas
+vector;C01;taller;1;Falla de encendido;Falla de encendido
+vector;C02;taller;1;Falla de encendido;Falla de encendido
+vector;C03;taller;1;Pastillas de freno desgastadas;Pastillas de freno desgastadas / Discos de freno
+vector;C04;taller;1;Discos de freno;Discos de freno / Pastillas de freno desgastadas
+vector;C05;taller;1;Mantenimiento motor diésel;Mantenimiento motor diésel
+vector;C06;taller;1;Mantenimiento motor gasolina;Mantenimiento motor gasolina
+vector;C07;taller;1;Batería descargada;Batería descargada
+vector;C08;taller;1;Catalizador;Catalizador
+vector;C09;taller;1;Correa de accesorios;Correa de accesorios
+vector;C10;taller;1;Falla de encendido;Falla de encendido
+vector;C11;taller;1;Falla de encendido;Falla de encendido
+vector;C12;taller;1;Pastillas de freno desgastadas;Pastillas de freno desgastadas / Discos de freno
+vector;T01;taller;1;Bomba de agua;Bomba de agua
+vector;T02;taller;1;Embrague;Embrague
+vector;T03;taller;1;Bujías;Bujías
+vector;T04;taller;1;Garantía de mano de obra del taller;Garantía de mano de obra del taller
+vector;T05;taller;1;Alternador;Alternador
+vector;T06;taller;1;Sensor de oxígeno;Sensor de oxígeno
+vector;G01;garantia;1;Exclusiones por desgaste;Exclusiones por desgaste
+vector;G02;garantia;1;Campañas de seguridad;Campañas de seguridad
+vector;G03;garantia;1;Autorización de garantía;Autorización de garantía
+vector;G04;garantia;1;Garantía de fábrica;Garantía de fábrica
+texto;C01;taller;1;Falla de encendido;Falla de encendido
+texto;C02;taller;1;Falla de encendido;Falla de encendido
+texto;C03;taller;1;Pastillas de freno desgastadas;Pastillas de freno desgastadas / Discos de freno
+texto;C04;taller;1;Pastillas de freno desgastadas;Discos de freno / Pastillas de freno desgastadas
+texto;C05;taller;1;Mantenimiento motor diésel;Mantenimiento motor diésel
+texto;C06;taller;1;Mantenimiento motor gasolina;Mantenimiento motor gasolina
+texto;C07;taller;1;Batería descargada;Batería descargada
+texto;C08;taller;1;Catalizador;Catalizador
+texto;C09;taller;3;Falla de encendido;Correa de accesorios
+texto;C10;taller;1;Falla de encendido;Falla de encendido
+texto;C11;taller;1;Falla de encendido;Falla de encendido
+texto;C12;taller;1;Pastillas de freno desgastadas;Pastillas de freno desgastadas / Discos de freno
+texto;T01;taller;1;Bomba de agua;Bomba de agua
+texto;T02;taller;1;Embrague;Embrague
+texto;T03;taller;1;Bujías;Bujías
+texto;T04;taller;1;Garantía de mano de obra del taller;Garantía de mano de obra del taller
+texto;T05;taller;2;Batería descargada;Alternador
+texto;T06;taller;3;Termostato;Sensor de oxígeno
+texto;G01;garantia;1;Exclusiones por desgaste;Exclusiones por desgaste
+texto;G02;garantia;1;Campañas de seguridad;Campañas de seguridad
+texto;G03;garantia;1;Autorización de garantía;Autorización de garantía
+texto;G04;garantia;1;Garantía de fábrica;Garantía de fábrica
+hibrido;C01;taller;1;Falla de encendido;Falla de encendido
+hibrido;C02;taller;1;Falla de encendido;Falla de encendido
+hibrido;C03;taller;1;Pastillas de freno desgastadas;Pastillas de freno desgastadas / Discos de freno
+hibrido;C04;taller;1;Discos de freno;Discos de freno / Pastillas de freno desgastadas
+hibrido;C05;taller;1;Mantenimiento motor diésel;Mantenimiento motor diésel
+hibrido;C06;taller;1;Mantenimiento motor gasolina;Mantenimiento motor gasolina
+hibrido;C07;taller;1;Batería descargada;Batería descargada
+hibrido;C08;taller;1;Catalizador;Catalizador
+hibrido;C09;taller;1;Correa de accesorios;Correa de accesorios
+hibrido;C10;taller;1;Falla de encendido;Falla de encendido
+hibrido;C11;taller;1;Falla de encendido;Falla de encendido
+hibrido;C12;taller;1;Pastillas de freno desgastadas;Pastillas de freno desgastadas / Discos de freno
+hibrido;T01;taller;1;Bomba de agua;Bomba de agua
+hibrido;T02;taller;1;Embrague;Embrague
+hibrido;T03;taller;1;Bujías;Bujías
+hibrido;T04;taller;1;Garantía de mano de obra del taller;Garantía de mano de obra del taller
+hibrido;T05;taller;1;Alternador;Alternador
+hibrido;T06;taller;2;Termostato;Sensor de oxígeno
+hibrido;G01;garantia;1;Exclusiones por desgaste;Exclusiones por desgaste
+hibrido;G02;garantia;1;Campañas de seguridad;Campañas de seguridad
+hibrido;G03;garantia;1;Autorización de garantía;Autorización de garantía
+hibrido;G04;garantia;1;Garantía de fábrica;Garantía de fábrica

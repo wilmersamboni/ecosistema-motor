@@ -1,0 +1,40 @@
+OK    rag          La base tiene la extensión pgvector                                    esperado true     obtenido true
+OK    rag          La migración crea las tablas y se puede repetir                        esperado true true obtenido true true
+OK    rag          Índices HNSW (coseno) para vectores y GIN para texto                   esperado true true obtenido true true
+OK    rag          Lee las notas de la bóveda y omite la carpeta _plantillas              esperado 19 false obtenido 19 false
+OK    rag          Lee las propiedades de la nota (códigos, categorías, horas)            esperado P0302 bobina_encendido 1.5 obtenido P0302 bobina_encendido 1.5
+OK    rag          Ningún fragmento conserva la sintaxis [[enlace]] de Obsidian           esperado 0        obtenido 0
+OK    rag          Cada fragmento lleva encabezado "Nota > Sección" y no pasa de 1.200 caracteres de texto esperado true     obtenido true
+OK    rag          Una sección larga se parte en varios fragmentos con solapamiento       esperado true true obtenido true true
+OK    rag          Primera indexación: 19 notas nuevas                                    esperado 19 0     obtenido 19 0
+OK    rag          Reindexar sin cambios no recalcula embeddings                          esperado 0 19 1   obtenido 0 19 1
+OK    rag          Una nota cambiada, una borrada y una nueva: solo eso se procesa        esperado 1 1 1 17 obtenido 1 1 1 17
+OK    rag          La nota nueva se encuentra de inmediato                                esperado Radiador obtenido Radiador
+OK    rag          La nota borrada ya no está en la base (ni sus fragmentos)              esperado 0        obtenido 0
+OK    rag          Búsqueda de texto: el código P0420 lleva a Catalizador                 esperado Catalizador obtenido Catalizador
+OK    rag          Búsqueda híbrida: síntomas de C01 llevan a Falla de encendido          esperado Falla de encendido obtenido Falla de encendido
+OK    rag          El resultado trae puntaje, similitud y posición en cada lista          esperado true true true obtenido true true true
+OK    rag          Filtro por propiedades: tipo=politica solo trae políticas              esperado true     obtenido true
+OK    rag          Máximo dos fragmentos por nota en los resultados                       esperado true     obtenido true
+OK    rag          Colección que no existe: error claro                                   esperado COLECCION_NO_EXISTE obtenido COLECCION_NO_EXISTE
+OK    rag          Consulta vacía: error claro                                            esperado CONSULTA_VACIA obtenido CONSULTA_VACIA
+OK    rag          Indexar con otro modelo de la misma dimensión: se rechaza              esperado MODELO_DISTINTO obtenido MODELO_DISTINTO
+OK    rag          Indexar con un modelo de otra dimensión: se rechaza                    esperado DIMENSION_DISTINTA obtenido DIMENSION_DISTINTA
+OK    rag          Buscar con un modelo distinto al de la colección: se rechaza           esperado MODELO_DISTINTO obtenido MODELO_DISTINTO
+OK    rag          Modelo no descargado: el error dice cómo descargarlo                   esperado EMBEDDINGS_ERROR true obtenido EMBEDDINGS_ERROR true
+OK    rag          Si el modelo de embeddings falla, la base queda como estaba (versión anterior de la nota) esperado EMBEDDINGS_ERROR true obtenido EMBEDDINGS_ERROR true
+OK    rag          Al volver el modelo, se indexa lo pendiente                            esperado 1 true   obtenido 1 true
+OK    rag          Inyección SQL en la consulta: no pasa nada (consultas parametrizadas)  esperado true true obtenido true true
+OK    rag          Filtro con un nombre de propiedad inválido: se rechaza                 esperado FILTRO_INVALIDO obtenido FILTRO_INVALIDO
+OK    rag          Dos indexaciones a la vez de la misma colección: sin duplicados        esperado true true true obtenido true true true
+OK    rag          Diagnóstico con RAG: cita como fuente la nota Falla de encendido       esperado rag true obtenido rag true
+OK    rag          Los fragmentos llegan al modelo delimitados y marcados como datos, no instrucciones esperado true true obtenido true true
+OK    rag          Motor diésel: no recupera notas de motores de gasolina                 esperado false    obtenido false
+OK    rag          Un repuesto sin respaldo en las notas recuperadas pide revisión humana esperado true true obtenido true true
+OK    rag          Guiado: los repuestos y las horas salen de la nota elegida             esperado 1 bobina_encendido, 4 bujia 1.5 false ia obtenido 1 bobina_encendido, 4 bujia 1.5 false ia
+OK    rag          Guiado: la respuesta del modelo está restringida a los títulos de las notas candidatas esperado true     obtenido true
+OK    rag          Guiado: si el modelo nombra una nota que no está entre las candidatas, plan B con revisión esperado rag true obtenido rag true
+OK    rag          Guiado: una nota sin repuestos del catálogo pide revisión del jefe de taller esperado 0 true   obtenido 0 true
+OK    rag          Si la base del RAG no responde, el agente sigue con palabras clave y lo avisa esperado palabras true obtenido palabras true
+
+RESUMEN DEL RAG: 38 de 38 pruebas correctas

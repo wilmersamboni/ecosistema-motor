@@ -1,0 +1,13 @@
+caso;acierto;revision;ms;fuente;obtenido;esperado;alertas
+C01;true;bien;1573;ia;bobina_encendido bujia;bobina_encendido bujia;
+C02;true;de más;1194;ia;bobina_encendido bujia;bobina_encendido bujia;Confianza del modelo 0.5 (menor que 0.7)
+C03;true;bien;1186;ia;disco_freno pastillas_freno;disco_freno pastillas_freno;
+C04;true;bien;1302;ia;disco_freno pastillas_freno;disco_freno pastillas_freno;
+C05;true;bien;1794;ia;aceite_motor_litro filtro_aceite filtro_aire;aceite_motor_litro filtro_aceite filtro_aire;
+C06;true;de más;1016;ia;aceite_motor_litro;aceite_motor_litro;Confianza del modelo 0.5 (menor que 0.7)
+C07;true;bien;1178;ia;bateria;bateria;
+C08;true;bien;1356;ia;;;La nota Catalizador no tiene repuestos del catálogo: requiere revisión del jefe de taller
+C09;true;bien;1014;ia;;;La nota Correa de accesorios no tiene repuestos del catálogo: requiere revisión del jefe de taller
+C10;true;bien;1764;ia;bobina_encendido bujia;bobina_encendido bujia;
+C11;true;bien;1361;ia;bobina_encendido bujia;bobina_encendido bujia;
+C12;true;bien;1135;ia;disco_freno pastillas_freno;disco_freno pastillas_freno;

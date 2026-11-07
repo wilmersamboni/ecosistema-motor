@@ -1,0 +1,13 @@
+caso;acierto;revision;ms;fuente;obtenido;esperado;alertas
+C01;false;bien;32333;ia;bateria bobina_encendido bujia filtro_aceite sensor_oxigeno;bobina_encendido bujia;El modelo propone [bateria,bateria,bobina_encendido,bobina_encendido,bujia,bujia,filtro_aceite,filtro_aceite,sensor_oxigeno,sensor_oxigeno,sensor_oxigeno,sensor_oxigeno,sensor_oxigeno,sensor_oxigeno,sensor_oxigeno,sensor_oxigeno] y las reglas [bobina_encendido,bujia] | Confianza del modelo 0.5 (menor que 0.7)
+C02;true;de más;2955;ia;bobina_encendido bujia;bobina_encendido bujia;
+C03;false;bien;2784;ia;disco_freno filtro_aceite pastillas_freno;disco_freno pastillas_freno;El modelo propone [disco_freno,filtro_aceite,pastillas_freno] y las reglas [disco_freno,pastillas_freno] | Confianza del modelo 0.5 (menor que 0.7)
+C04;true;de más;18058;ia;disco_freno pastillas_freno;disco_freno pastillas_freno;Confianza del modelo 0 (menor que 0.7)
+C05;true;de más;18492;ia;aceite_motor_litro filtro_aceite filtro_aire;aceite_motor_litro filtro_aceite filtro_aire;Confianza del modelo 0.5 (menor que 0.7)
+C06;false;bien;3217;ia;aceite_motor_litro filtro_aceite filtro_aire;aceite_motor_litro;El modelo propone [aceite_motor_litro,filtro_aceite,filtro_aire] y las reglas [aceite_motor_litro] | Confianza del modelo 0.5 (menor que 0.7)
+C07;true;de más;1837;ia;bateria;bateria;Confianza del modelo 0.5 (menor que 0.7)
+C08;true;bien;31912;reglas;;;El modelo falló (El modelo no produjo un JSON válido: (raíz): Invalid input: expected object, received undefined); se usan las reglas del taller
+C09;false;bien;18997;ia;pastillas_freno;;
+C10;true;de más;2567;ia;bobina_encendido bujia;bobina_encendido bujia;Confianza del modelo 0.5 (menor que 0.7)
+C11;false;bien;17990;ia;filtro_aceite;bobina_encendido bujia;Confianza del modelo 0.5 (menor que 0.7)
+C12;false;bien;18667;ia;filtro_aceite pastillas_freno;disco_freno pastillas_freno;Confianza del modelo 0.5 (menor que 0.7)

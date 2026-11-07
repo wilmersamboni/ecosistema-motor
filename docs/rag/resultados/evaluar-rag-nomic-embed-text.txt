@@ -1,0 +1,34 @@
+Evaluación de la recuperación con nomic-embed-text (http://localhost:11438/v1)
+
+Caso  Colección vector   texto    hibrido   Esperada
+C01   taller    2        1        2         Falla de encendido
+C02   taller    1        1        1         Falla de encendido
+C03   taller    1        1        1         Pastillas de freno desgastadas
+C04   taller    1        1        1         Discos de freno
+C05   taller    1        1        1         Mantenimiento motor diésel
+C06   taller    1        1        1         Mantenimiento motor gasolina
+C07   taller    1        1        1         Batería descargada
+C08   taller    1        1        1         Catalizador
+C09   taller    1        3        1         Correa de accesorios
+C10   taller    1        1        1         Falla de encendido
+C11   taller    1        1        1         Falla de encendido
+C12   taller    1        1        1         Pastillas de freno desgastadas
+T01   taller    2        1        1         Bomba de agua
+T02   taller    1        1        1         Embrague
+T03   taller    1        1        1         Bujías
+T04   taller    1        1        1         Garantía de mano de obra del taller
+T05   taller    2        2        2         Alternador
+T06   taller    2        3        2         Sensor de oxígeno
+G01   garantia  2        1        2         Exclusiones por desgaste
+G02   garantia  1        1        1         Campañas de seguridad
+G03   garantia  1        1        1         Autorización de garantía
+G04   garantia  1        1        1         Garantía de fábrica
+
+(la tabla muestra en qué posición salió la primera nota esperada; "-" = no salió entre las 8 primeras)
+
+Modo      acierto@1  acierto@3   MRR    p50 ms   (22 consultas)
+vector      77%       100%     0.89      35
+texto       86%       100%     0.92       5
+hibrido     82%       100%     0.91      38
+
+Detalle en resultados/evaluacion-rag-nomic-embed-text.csv

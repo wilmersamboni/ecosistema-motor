@@ -1,0 +1,11 @@
+### Primera corrida
+Indexando C:\Users\jwilm\OneDrive\Documents\COMPLEMENTARIO-IA\ia-sena\ecosistema-motor\conocimiento\taller en la colección "taller" con bge-m3 (http://localhost:11438/v1)
+
+Notas: 19 | nuevas 0, actualizadas 0, sin cambios 19, eliminadas 0 | fragmentos en la colección: 56 | vectores de 1024 dimensiones | 4.2 s
+
+### Segunda corrida 
+Indexando C:\Users\jwilm\OneDrive\Documents\COMPLEMENTARIO-IA\ia-sena\ecosistema-motor\conocimiento\taller en la colección "taller" con bge-m3 (http://localhost:11438/v1)
+
+ actualizada Fallas/Batería descargada.md (4 fragmentos)
+
+Notas: 19 | nuevas 0, actualizadas 1, sin cambios 18, eliminadas 0 | fragmentos en la colección: 56 | vectores de 1024 dimensiones | 0.7 s

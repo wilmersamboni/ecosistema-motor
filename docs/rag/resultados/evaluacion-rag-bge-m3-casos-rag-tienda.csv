@@ -1,0 +1,43 @@
+modo;caso;coleccion;posicion;primera;esperadas
+vector;TI01;tienda;1;Chevrolet Spark 1.2;Bujías / Chevrolet Spark 1.2
+vector;TI02;tienda;1;Bobinas de encendido;Bobinas de encendido / Renault Logan 1.6
+vector;TI03;tienda;1;Pastillas de freno;Pastillas de freno
+vector;TI04;tienda;1;Discos de freno;Discos de freno
+vector;TI05;tienda;1;Filtros Hilux;Filtros Hilux / Toyota Hilux 2.4 diésel
+vector;TI06;tienda;1;Aceite de motor;Aceite de motor
+vector;TI07;tienda;1;Batería;Batería
+vector;TI08;tienda;1;Homologado vs genérico;Homologado vs genérico
+vector;TI09;tienda;1;Equivalencias de bujías;Equivalencias de bujías
+vector;TI10;tienda;1;Garantía de la tienda;Garantía de la tienda
+vector;TI11;tienda;1;Devoluciones y repuesto equivocado;Devoluciones y repuesto equivocado
+vector;TI12;tienda;1;Mazda 2 1.5;Mazda 2 1.5
+vector;TI13;tienda;1;Bobinas de encendido;Bobinas de encendido
+vector;TI14;tienda;1;Toyota Hilux 2.4 diésel;Toyota Hilux 2.4 diésel
+texto;TI01;tienda;1;Chevrolet Spark 1.2;Bujías / Chevrolet Spark 1.2
+texto;TI02;tienda;1;Bobinas de encendido;Bobinas de encendido / Renault Logan 1.6
+texto;TI03;tienda;1;Pastillas de freno;Pastillas de freno
+texto;TI04;tienda;1;Discos de freno;Discos de freno
+texto;TI05;tienda;1;Filtros Hilux;Filtros Hilux / Toyota Hilux 2.4 diésel
+texto;TI06;tienda;1;Aceite de motor;Aceite de motor
+texto;TI07;tienda;1;Batería;Batería
+texto;TI08;tienda;1;Homologado vs genérico;Homologado vs genérico
+texto;TI09;tienda;1;Equivalencias de bujías;Equivalencias de bujías
+texto;TI10;tienda;1;Garantía de la tienda;Garantía de la tienda
+texto;TI11;tienda;1;Devoluciones y repuesto equivocado;Devoluciones y repuesto equivocado
+texto;TI12;tienda;4;Devoluciones y repuesto equivocado;Mazda 2 1.5
+texto;TI13;tienda;1;Bobinas de encendido;Bobinas de encendido
+texto;TI14;tienda;6;Bujías;Toyota Hilux 2.4 diésel
+hibrido;TI01;tienda;1;Chevrolet Spark 1.2;Bujías / Chevrolet Spark 1.2
+hibrido;TI02;tienda;1;Bobinas de encendido;Bobinas de encendido / Renault Logan 1.6
+hibrido;TI03;tienda;1;Pastillas de freno;Pastillas de freno
+hibrido;TI04;tienda;1;Discos de freno;Discos de freno
+hibrido;TI05;tienda;1;Filtros Hilux;Filtros Hilux / Toyota Hilux 2.4 diésel
+hibrido;TI06;tienda;1;Aceite de motor;Aceite de motor
+hibrido;TI07;tienda;1;Batería;Batería
+hibrido;TI08;tienda;1;Homologado vs genérico;Homologado vs genérico
+hibrido;TI09;tienda;1;Equivalencias de bujías;Equivalencias de bujías
+hibrido;TI10;tienda;1;Garantía de la tienda;Garantía de la tienda
+hibrido;TI11;tienda;1;Devoluciones y repuesto equivocado;Devoluciones y repuesto equivocado
+hibrido;TI12;tienda;1;Mazda 2 1.5;Mazda 2 1.5
+hibrido;TI13;tienda;1;Bobinas de encendido;Bobinas de encendido
+hibrido;TI14;tienda;2;Equivalencias de bujías;Toyota Hilux 2.4 diésel

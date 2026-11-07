@@ -1,0 +1,13 @@
+caso;acierto;revision;ms;fuente;obtenido;esperado;alertas
+C01;false;bien;22085;ia;bobina_encendido;bobina_encendido bujia;El modelo propone [bobina_encendido] y las reglas [bobina_encendido,bujia] | Confianza del modelo 0 (menor que 0.7)
+C02;false;bien;19363;ia;sensor_oxigeno;bobina_encendido bujia;El modelo propone [sensor_oxigeno] y las reglas [bobina_encendido,bujia] | Repuestos sin respaldo en la base de conocimiento: sensor_oxigeno | Confianza del modelo 0 (menor que 0.7)
+C03;false;bien;4253;ia;disco_freno filtro_aceite pastillas_freno;disco_freno pastillas_freno;El modelo propone [disco_freno,filtro_aceite,filtro_aceite,pastillas_freno] y las reglas [disco_freno,pastillas_freno] | Repuestos sin respaldo en la base de conocimiento: filtro_aceite | Confianza del modelo 0.5 (menor que 0.7)
+C04;true;de más;25862;ia;disco_freno pastillas_freno;disco_freno pastillas_freno;Confianza del modelo 0 (menor que 0.7)
+C05;true;de más;3175;ia;aceite_motor_litro filtro_aceite filtro_aire;aceite_motor_litro filtro_aceite filtro_aire;Cantidad sospechosa: 10 aceite_motor_litro | Confianza del modelo 0.5 (menor que 0.7)
+C06;false;bien;3689;ia;filtro_aceite filtro_aire sensor_oxigeno;aceite_motor_litro;El modelo propone [filtro_aceite,filtro_aire,sensor_oxigeno] y las reglas [aceite_motor_litro] | Repuestos sin respaldo en la base de conocimiento: sensor_oxigeno, filtro_aceite, filtro_aire | Confianza del modelo 0.5 (menor que 0.7)
+C07;false;bien;4810;ia;bateria filtro_aceite filtro_aire pastillas_freno sensor_oxigeno;bateria;El modelo propone [bateria,filtro_aceite,filtro_aire,pastillas_freno,sensor_oxigeno] y las reglas [bateria] | Repuestos sin respaldo en la base de conocimiento: sensor_oxigeno, filtro_aire, filtro_aceite | Confianza del modelo 0.5 (menor que 0.7)
+C08;false;bien;2233;ia;sensor_oxigeno;;Confianza del modelo 0.5 (menor que 0.7)
+C09;false;bien;2065;ia;bobina_encendido;;Confianza del modelo 0.5 (menor que 0.7)
+C10;false;bien;2297;ia;sensor_oxigeno;bobina_encendido bujia;El modelo propone [sensor_oxigeno] y las reglas [bobina_encendido,bujia] | Confianza del modelo 0 (menor que 0.7)
+C11;false;bien;4847;ia;pastillas_freno sensor_oxigeno;bobina_encendido bujia;Repuestos sin respaldo en la base de conocimiento: sensor_oxigeno, pastillas_freno | Confianza del modelo 0.5 (menor que 0.7)
+C12;false;bien;3380;ia;disco_freno filtro_aceite pastillas_freno;disco_freno pastillas_freno;Repuestos sin respaldo en la base de conocimiento: filtro_aceite | Confianza del modelo 0.5 (menor que 0.7)
