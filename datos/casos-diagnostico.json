@@ -1,0 +1,211 @@
+{
+  "nota": "Casos de evaluación del agente de diagnóstico. 'esperado' son las categorías correctas; [] significa que no hay repuesto claro y debe pedir revisión humana.",
+  "casos": [
+    {
+      "id": "C01",
+      "vehiculo": {
+        "marca": "Chevrolet",
+        "linea": "Spark GT",
+        "modelo_anio": 2016,
+        "motor": "1.2L gasolina",
+        "kilometraje": 128400
+      },
+      "sintomas": "Tiembla en ralentí y a veces se apaga",
+      "codigos_dtc": [
+        "P0302"
+      ],
+      "esperado": [
+        "bobina_encendido",
+        "bujia"
+      ],
+      "revision": false
+    },
+    {
+      "id": "C02",
+      "vehiculo": {
+        "marca": "Renault",
+        "linea": "Logan",
+        "modelo_anio": 2019,
+        "motor": "1.6L gasolina",
+        "kilometraje": 87000
+      },
+      "sintomas": "Jalonea al acelerar en subida",
+      "codigos_dtc": [
+        "P0300"
+      ],
+      "esperado": [
+        "bobina_encendido",
+        "bujia"
+      ],
+      "revision": false
+    },
+    {
+      "id": "C03",
+      "vehiculo": {
+        "marca": "Mazda",
+        "linea": "2",
+        "modelo_anio": 2019,
+        "motor": "1.5L gasolina",
+        "kilometraje": 74300
+      },
+      "sintomas": "Chillido al frenar",
+      "codigos_dtc": [],
+      "esperado": [
+        "disco_freno",
+        "pastillas_freno"
+      ],
+      "revision": false
+    },
+    {
+      "id": "C04",
+      "vehiculo": {
+        "marca": "Chevrolet",
+        "linea": "Spark GT",
+        "modelo_anio": 2014,
+        "motor": "1.2L gasolina",
+        "kilometraje": 150000
+      },
+      "sintomas": "Vibra al frenar y frena largo",
+      "codigos_dtc": [],
+      "esperado": [
+        "disco_freno",
+        "pastillas_freno"
+      ],
+      "revision": false
+    },
+    {
+      "id": "C05",
+      "vehiculo": {
+        "marca": "Toyota",
+        "linea": "Hilux",
+        "modelo_anio": 2021,
+        "motor": "2.4L diesel",
+        "kilometraje": 60000
+      },
+      "sintomas": "Mantenimiento de 60.000 km",
+      "codigos_dtc": [],
+      "esperado": [
+        "aceite_motor_litro",
+        "filtro_aceite",
+        "filtro_aire"
+      ],
+      "revision": false
+    },
+    {
+      "id": "C06",
+      "vehiculo": {
+        "marca": "Renault",
+        "linea": "Logan",
+        "modelo_anio": 2022,
+        "motor": "1.6L gasolina",
+        "kilometraje": 30000
+      },
+      "sintomas": "Cambio de aceite de los 30.000",
+      "codigos_dtc": [],
+      "esperado": [
+        "aceite_motor_litro"
+      ],
+      "revision": false
+    },
+    {
+      "id": "C07",
+      "vehiculo": {
+        "marca": "Chevrolet",
+        "linea": "Spark GT",
+        "modelo_anio": 2017,
+        "motor": "1.2L gasolina",
+        "kilometraje": 99000
+      },
+      "sintomas": "No enciende en las mañanas, toca empujarlo",
+      "codigos_dtc": [],
+      "esperado": [
+        "bateria"
+      ],
+      "revision": false
+    },
+    {
+      "id": "C08",
+      "vehiculo": {
+        "marca": "Mazda",
+        "linea": "2",
+        "modelo_anio": 2018,
+        "motor": "1.5L gasolina",
+        "kilometraje": 140000
+      },
+      "sintomas": "Se prendió el testigo del motor y huele a huevo podrido",
+      "codigos_dtc": [
+        "P0420"
+      ],
+      "esperado": [],
+      "revision": true
+    },
+    {
+      "id": "C09",
+      "vehiculo": {
+        "marca": "Renault",
+        "linea": "Logan",
+        "modelo_anio": 2016,
+        "motor": "1.6L gasolina",
+        "kilometraje": 160000
+      },
+      "sintomas": "Suena un chirrido de correa al encender",
+      "codigos_dtc": [],
+      "esperado": [],
+      "revision": true
+    },
+    {
+      "id": "C10",
+      "vehiculo": {
+        "marca": "Chevrolet",
+        "linea": "Spark GT",
+        "modelo_anio": 2015,
+        "motor": "1.2L gasolina",
+        "kilometraje": 132000
+      },
+      "sintomas": "Cascabelea y se apaga en los semáforos",
+      "codigos_dtc": [
+        "P0301",
+        "P0303"
+      ],
+      "esperado": [
+        "bobina_encendido",
+        "bujia"
+      ],
+      "revision": false
+    },
+    {
+      "id": "C11",
+      "vehiculo": {
+        "marca": "Renault",
+        "linea": "Logan",
+        "modelo_anio": 2018,
+        "motor": "1.6L gasolina",
+        "kilometraje": 110000
+      },
+      "sintomas": "El motor cojea y pierde fuerza, como si le faltara un cilindro",
+      "codigos_dtc": [],
+      "esperado": [
+        "bobina_encendido",
+        "bujia"
+      ],
+      "revision": false
+    },
+    {
+      "id": "C12",
+      "vehiculo": {
+        "marca": "Mazda",
+        "linea": "2",
+        "modelo_anio": 2020,
+        "motor": "1.5L gasolina",
+        "kilometraje": 68000
+      },
+      "sintomas": "Al pisar el freno se escucha metal contra metal",
+      "codigos_dtc": [],
+      "esperado": [
+        "disco_freno",
+        "pastillas_freno"
+      ],
+      "revision": false
+    }
+  ]
+}

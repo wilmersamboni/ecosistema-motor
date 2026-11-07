@@ -1,0 +1,22 @@
+# Base de datos del RAG: PostgreSQL 17 con la extensión pgvector.
+#   docker compose -f rag/docker-compose.yml up -d        (desde la carpeta ecosistema-motor)
+# Queda en localhost:5434 (usuario rag, clave rag, base rag), solo accesible desde este equipo.
+# Si el puerto 5434 está ocupado, defina la variable RAG_PUERTO (por ejemplo 5435) y ajuste RAG_DB_URL.
+# Los datos viven en el volumen rag-datos: se conservan al reiniciar; "down -v" los borra.
+services:
+  rag-db:
+    image: pgvector/pgvector:0.8.1-pg17
+    environment:
+      POSTGRES_USER: rag
+      POSTGRES_PASSWORD: rag
+      POSTGRES_DB: rag
+    ports: ["127.0.0.1:${RAG_PUERTO:-5434}:5432"]
+    volumes:
+      - rag-datos:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U rag -d rag"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+volumes:
+  rag-datos:

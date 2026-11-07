@@ -1,0 +1,65 @@
+# Ecosistema MotorRed en contenedores: un servicio por grupo más la pasarela.
+#   docker compose up -d --build        y luego, desde esta carpeta:  npm run escenarios
+# Cada contenedor llama a los demás por su nombre (http://tienda:4102). Hacia afuera publica su puerto
+# solo en 127.0.0.1 (este equipo), para las pruebas y para la página de pago.
+x-servicio: &servicio
+  build: .
+  restart: unless-stopped
+  env_file:
+    - path: .env
+      required: false
+  environment: &red
+    URL_TALLER: http://taller:4101
+    URL_TIENDA: http://tienda:4102
+    URL_CONCESIONARIO: http://concesionario:4103
+    URL_VENTAS: http://ventas:4104
+    URL_PASARELA: http://pasarela:4199
+    PASARELA_URL_PUBLICA: http://localhost:4199
+    # Rutas de laboratorio de los proveedores (/sandbox/...). Los puertos solo se publican en este equipo.
+    SANDBOX: "1"
+  volumes:
+    - ./bitacora:/app/bitacora
+  healthcheck:
+    test: ["CMD-SHELL", "wget -qO- http://localhost:$$PUERTO/salud || exit 1"]
+    interval: 5s
+    timeout: 3s
+    retries: 10
+
+services:
+  pasarela:
+    <<: *servicio
+    command: node simuladores/pasarela.mjs
+    environment: { <<: *red, PUERTO: 4199 }
+    ports: ["127.0.0.1:4199:4199"]
+  tienda:
+    <<: *servicio
+    command: node simuladores/tienda.mjs
+    environment: { <<: *red, PUERTO: 4102 }
+    ports: ["127.0.0.1:4102:4102"]
+  concesionario:
+    <<: *servicio
+    command: node simuladores/concesionario.mjs
+    environment: { <<: *red, PUERTO: 4103 }
+    ports: ["127.0.0.1:4103:4103"]
+  ventas:
+    <<: *servicio
+    command: node simuladores/ventas.mjs
+    environment:
+      <<: *red
+      PUERTO: 4104
+      # Destinos a los que ventas acepta enviar webhooks (lista blanca contra SSRF). El primero es el
+      # taller dentro de la red; el segundo, el que usan las pruebas que corren en este equipo
+      # (npm run escenarios), que solo crean ventas de prueba que nunca se pagan ni se notifican.
+      NOTIFICACIONES_PERMITIDAS: http://taller:4101,http://localhost:4101
+    ports: ["127.0.0.1:4104:4104"]
+    depends_on:
+      tienda: { condition: service_healthy }
+      concesionario: { condition: service_healthy }
+      pasarela: { condition: service_healthy }
+  taller:
+    <<: *servicio
+    command: node simuladores/taller.mjs
+    environment: { <<: *red, PUERTO: 4101 }
+    ports: ["127.0.0.1:4101:4101"]
+    depends_on:
+      ventas: { condition: service_healthy }

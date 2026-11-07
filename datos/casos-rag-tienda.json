@@ -1,0 +1,19 @@
+{
+  "nota": "Consultas propias del grupo Tienda para evaluar la recuperación de la colección 'tienda'. 'esperadas' son las notas que deberían salir primero (cualquiera de ellas cuenta como acierto).",
+  "tienda": [
+    { "id": "TI01", "consulta": "Necesito las chispas para un Spark 2015", "esperadas": ["Bujías", "Chevrolet Spark 1.2"] },
+    { "id": "TI02", "consulta": "El carro me jalonea y tiembla en mínimo, ¿qué bobina le sirve a un Logan?", "esperadas": ["Bobinas de encendido", "Renault Logan 1.6"] },
+    { "id": "TI03", "consulta": "Mi Mazda chilla cuando freno", "esperadas": ["Pastillas de freno"] },
+    { "id": "TI04", "consulta": "Me vibra el timón al frenar", "esperadas": ["Discos de freno"] },
+    { "id": "TI05", "consulta": "Kit de filtros para el cambio de aceite de la camioneta Toyota", "esperadas": ["Filtros Hilux", "Toyota Hilux 2.4 diésel"] },
+    { "id": "TI06", "consulta": "¿Qué aceite le echo a una camioneta diésel?", "esperadas": ["Aceite de motor"] },
+    { "id": "TI07", "consulta": "El carro no prende en la mañana y toca pasarle corriente", "esperadas": ["Batería"] },
+    { "id": "TI08", "consulta": "¿Cuál es la diferencia entre el original y el más barato?", "esperadas": ["Homologado vs genérico"] },
+    { "id": "TI09", "consulta": "¿La Champion reemplaza a la NGK BKR6E?", "esperadas": ["Equivalencias de bujías"] },
+    { "id": "TI10", "consulta": "¿Cuántos meses de garantía tiene la batería?", "esperadas": ["Garantía de la tienda"] },
+    { "id": "TI11", "consulta": "Me vendieron una pieza que no le sirvió a mi carro, ¿la puedo devolver?", "esperadas": ["Devoluciones y repuesto equivocado"] },
+    { "id": "TI12", "consulta": "¿Qué repuestos tienen para el Mazdita?", "esperadas": ["Mazda 2 1.5"] },
+    { "id": "TI13", "consulta": "TR-BOB-DLP-SPK", "esperadas": ["Bobinas de encendido"] },
+    { "id": "TI14", "consulta": "¿Tienen bujías para la Hilux?", "esperadas": ["Toyota Hilux 2.4 diésel"] }
+  ]
+}

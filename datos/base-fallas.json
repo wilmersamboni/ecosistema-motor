@@ -1,0 +1,131 @@
+{
+  "nota": "Base de conocimiento de práctica del taller (grupo Falla). En la versión con agentes, este es el material del RAG.",
+  "reglas": [
+    {
+      "id": "misfire",
+      "dtc": [
+        "P0300",
+        "P0301",
+        "P0302",
+        "P0303",
+        "P0304"
+      ],
+      "palabras": [
+        "tiembla",
+        "falla en ralenti",
+        "se apaga",
+        "cascabelea"
+      ],
+      "hallazgo": "Falla de encendido: chispa débil por desgaste de bujías o bobina defectuosa",
+      "requerimientos": [
+        {
+          "categoria": "bujia",
+          "cantidad": 4,
+          "justificacion": "Las bujías se cambian como juego completo"
+        },
+        {
+          "categoria": "bobina_encendido",
+          "cantidad": 1,
+          "justificacion": "La prueba de chispa en el cilindro afectado es débil"
+        }
+      ],
+      "horas": 1.5,
+      "confianza": 0.85
+    },
+    {
+      "id": "frenos",
+      "dtc": [],
+      "palabras": [
+        "ruido al frenar",
+        "chillido",
+        "frena largo",
+        "vibra al frenar",
+        "frenos"
+      ],
+      "hallazgo": "Pastillas delanteras bajo el mínimo y discos rayados",
+      "requerimientos": [
+        {
+          "categoria": "pastillas_freno",
+          "cantidad": 1,
+          "justificacion": "Juego delantero bajo 3 mm"
+        },
+        {
+          "categoria": "disco_freno",
+          "cantidad": 2,
+          "justificacion": "Rayados por contacto metal con metal"
+        }
+      ],
+      "horas": 2.0,
+      "confianza": 0.8
+    },
+    {
+      "id": "mantenimiento_diesel",
+      "dtc": [],
+      "palabras": [
+        "mantenimiento",
+        "cambio de aceite",
+        "revision de kilometraje"
+      ],
+      "motor": "diesel",
+      "hallazgo": "Mantenimiento preventivo por kilometraje: aceite, filtros y revisión de 30 puntos",
+      "requerimientos": [
+        {
+          "categoria": "aceite_motor_litro",
+          "cantidad": 8,
+          "justificacion": "Capacidad del cárter 7,5 L"
+        },
+        {
+          "categoria": "filtro_aceite",
+          "cantidad": 1,
+          "justificacion": "Se cambia con cada aceite"
+        },
+        {
+          "categoria": "filtro_aire",
+          "cantidad": 1,
+          "justificacion": "Saturado por uso en carretera destapada"
+        }
+      ],
+      "horas": 2.0,
+      "confianza": 0.95
+    },
+    {
+      "id": "mantenimiento_gasolina",
+      "dtc": [],
+      "palabras": [
+        "mantenimiento",
+        "cambio de aceite",
+        "revision de kilometraje"
+      ],
+      "motor": "gasolina",
+      "hallazgo": "Mantenimiento preventivo por kilometraje: aceite",
+      "requerimientos": [
+        {
+          "categoria": "aceite_motor_litro",
+          "cantidad": 4,
+          "justificacion": "Capacidad del cárter 3,8 L"
+        }
+      ],
+      "horas": 0.5,
+      "confianza": 0.95
+    },
+    {
+      "id": "bateria",
+      "dtc": [],
+      "palabras": [
+        "no enciende",
+        "no prende",
+        "bateria"
+      ],
+      "hallazgo": "Batería descargada que no sostiene carga",
+      "requerimientos": [
+        {
+          "categoria": "bateria",
+          "cantidad": 1,
+          "justificacion": "Prueba de carga por debajo del 50%"
+        }
+      ],
+      "horas": 0.5,
+      "confianza": 0.75
+    }
+  ]
+}

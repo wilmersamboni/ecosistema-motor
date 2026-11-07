@@ -1,0 +1,152 @@
+{
+ "nota": "Casos para evaluar la recuperación del RAG. 'caso' toma la consulta del caso de diagnóstico con ese id (síntomas, códigos y motor, como la arma el agente); 'consulta' es una pregunta escrita a mano. 'esperadas' son las notas que deberían salir.",
+ "taller": [
+  {
+   "caso": "C01",
+   "esperadas": [
+    "Falla de encendido"
+   ]
+  },
+  {
+   "caso": "C02",
+   "esperadas": [
+    "Falla de encendido"
+   ]
+  },
+  {
+   "caso": "C03",
+   "esperadas": [
+    "Pastillas de freno desgastadas",
+    "Discos de freno"
+   ]
+  },
+  {
+   "caso": "C04",
+   "esperadas": [
+    "Discos de freno",
+    "Pastillas de freno desgastadas"
+   ]
+  },
+  {
+   "caso": "C05",
+   "esperadas": [
+    "Mantenimiento motor diésel"
+   ]
+  },
+  {
+   "caso": "C06",
+   "esperadas": [
+    "Mantenimiento motor gasolina"
+   ]
+  },
+  {
+   "caso": "C07",
+   "esperadas": [
+    "Batería descargada"
+   ]
+  },
+  {
+   "caso": "C08",
+   "esperadas": [
+    "Catalizador"
+   ]
+  },
+  {
+   "caso": "C09",
+   "esperadas": [
+    "Correa de accesorios"
+   ]
+  },
+  {
+   "caso": "C10",
+   "esperadas": [
+    "Falla de encendido"
+   ]
+  },
+  {
+   "caso": "C11",
+   "esperadas": [
+    "Falla de encendido"
+   ]
+  },
+  {
+   "caso": "C12",
+   "esperadas": [
+    "Pastillas de freno desgastadas",
+    "Discos de freno"
+   ]
+  },
+  {
+   "id": "T01",
+   "consulta": "El carro se recalienta en los trancones y bota agua por debajo",
+   "esperadas": [
+    "Bomba de agua"
+   ]
+  },
+  {
+   "id": "T02",
+   "consulta": "El embrague patina en subida y huele a quemado",
+   "esperadas": [
+    "Embrague"
+   ]
+  },
+  {
+   "id": "T03",
+   "consulta": "¿Cada cuánto se cambian las bujías de iridio?",
+   "esperadas": [
+    "Bujías"
+   ]
+  },
+  {
+   "id": "T04",
+   "consulta": "¿Cuánto dura la garantía de la mano de obra del taller?",
+   "esperadas": [
+    "Garantía de mano de obra del taller"
+   ]
+  },
+  {
+   "id": "T05",
+   "consulta": "Se prende el testigo de la batería con el carro andando y la batería nueva se descarga",
+   "esperadas": [
+    "Alternador"
+   ]
+  },
+  {
+   "id": "T06",
+   "consulta": "Código P0133 y el carro gasta más gasolina",
+   "esperadas": [
+    "Sensor de oxígeno"
+   ]
+  }
+ ],
+ "garantia": [
+  {
+   "id": "G01",
+   "consulta": "¿La garantía de fábrica cubre las pastillas de freno?",
+   "esperadas": [
+    "Exclusiones por desgaste"
+   ]
+  },
+  {
+   "id": "G02",
+   "consulta": "Logan 1.6 modelo 2024 con la bobina dañada, ¿hay campaña?",
+   "esperadas": [
+    "Campañas de seguridad"
+   ]
+  },
+  {
+   "id": "G03",
+   "consulta": "¿Cómo se obtiene el número de autorización GAR para una garantía?",
+   "esperadas": [
+    "Autorización de garantía"
+   ]
+  },
+  {
+   "id": "G04",
+   "consulta": "¿Cuántos años y kilómetros cubre la garantía de un carro nuevo?",
+   "esperadas": [
+    "Garantía de fábrica"
+   ]
+  }
+ ]
+}

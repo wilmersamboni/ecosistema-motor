@@ -1,0 +1,28 @@
+{
+  "name": "ecosistema-motor",
+  "version": "1.0.0",
+  "description": "MotorRed: contrato, simuladores y pruebas del ecosistema multiagente taller - repuestos - concesionario - ventas",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "ecosistema": "node ecosistema.mjs",
+    "contrato": "node contrato/generar-doc.mjs",
+    "escenarios": "node pruebas/escenarios.mjs",
+    "conformidad": "node pruebas/conformidad.mjs",
+    "rag:base": "docker compose -f rag/docker-compose.yml up -d --wait",
+    "rag:indexar": "node rag/indexar.mjs",
+    "rag:buscar": "node rag/buscar.mjs",
+    "rag:pruebas": "node pruebas/rag.mjs",
+    "rag:evaluar": "node pruebas/evaluar-rag.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/client": "^2.3.1",
+    "@modelcontextprotocol/node": "^2.1.1",
+    "@modelcontextprotocol/server": "^2.3.1",
+    "pg": "^8.23.1",
+    "zod": "^4.2.0"
+  }
+}

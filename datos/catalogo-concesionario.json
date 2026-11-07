@@ -1,0 +1,27 @@
+{
+  "nombre": "Sur Motor S.A.S. (concesionario autorizado Chevrolet y Renault, grupo Emerson)",
+  "nit": "900765432-5",
+  "marcas": ["chevrolet", "renault"],
+  "productos": [
+    { "sku": "GM-BUJ-96130723", "categoria": "bujia", "descripcion": "Bujía original GM", "fabricante": "GM", "tipo": "original", "precio": 24000, "stock": 30, "entrega_horas": 4, "garantia_meses": 12,
+      "aplica": [{ "marca": "chevrolet", "linea": "spark", "motor": "1.2", "desde": 2010, "hasta": 2022 }] },
+    { "sku": "GM-BOB-96253555", "categoria": "bobina_encendido", "descripcion": "Bobina de encendido original GM", "fabricante": "GM", "tipo": "original", "precio": 265000, "stock": 2, "entrega_horas": 24, "garantia_meses": 12,
+      "aplica": [{ "marca": "chevrolet", "linea": "spark", "motor": "1.2", "desde": 2010, "hasta": 2022 }] },
+    { "sku": "RN-BUJ-7700500155", "categoria": "bujia", "descripcion": "Bujía original Renault", "fabricante": "Renault", "tipo": "original", "precio": 26500, "stock": 20, "entrega_horas": 4, "garantia_meses": 12,
+      "aplica": [{ "marca": "renault", "linea": "logan", "motor": "1.6", "desde": 2012, "hasta": 2026 }] },
+    { "sku": "RN-BOB-224335389R", "categoria": "bobina_encendido", "descripcion": "Bobina de encendido original Renault", "fabricante": "Renault", "tipo": "original", "precio": 289000, "stock": 3, "entrega_horas": 4, "garantia_meses": 12,
+      "aplica": [{ "marca": "renault", "linea": "logan", "motor": "1.6", "desde": 2012, "hasta": 2026 }] },
+    { "sku": "RN-BAT-7711238597", "categoria": "bateria", "descripcion": "Batería original Renault 50 Ah", "fabricante": "Renault", "tipo": "original", "precio": 545000, "stock": 2, "entrega_horas": 4, "garantia_meses": 24,
+      "aplica": [{ "marca": "renault", "linea": "logan", "motor": "1.6", "desde": 2012, "hasta": 2026 }] }
+  ],
+  "vehiculos": [
+    { "vin": "9FBLSRALBSM000123", "marca": "Renault", "linea": "Logan", "modelo_anio": 2025, "fecha_venta": "2025-06-10",
+      "garantia_anios": 3, "garantia_km": 100000, "campanas": [] },
+    { "vin": "9GAMM6105GB000045", "marca": "Chevrolet", "linea": "Spark GT", "modelo_anio": 2016, "fecha_venta": "2016-03-02",
+      "garantia_anios": 3, "garantia_km": 100000, "campanas": [{ "codigo": "N211234", "descripcion": "Revisión del módulo de la bolsa de aire del conductor" }] }
+  ],
+  "garantia": {
+    "cubiertas": ["bobina_encendido", "sensor_oxigeno", "bomba_agua"],
+    "excluidas_por_desgaste": ["bujia", "pastillas_freno", "disco_freno", "filtro_aceite", "filtro_aire", "aceite_motor_litro", "bateria", "kit_embrague"]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "816525bff23b4866",
+    "type": "split",
+    "children": [
+      {
+        "id": "e64f1b4772e0efa7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2293b2fd050cb4aa",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e2faab5f17b43d07",
+    "type": "split",
+    "children": [
+      {
+        "id": "b294d84163e6d3f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5e499ad058779b21",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "223e5b2a19eacd4f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "4bcab21dc8b02d29",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e38f4b756f31e269",
+    "type": "split",
+    "children": [
+      {
+        "id": "a16fb0a67c6453e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55eda8a680be8097",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "70f8846138cd6d10",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "69206a973ed43125",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "63662e621d5d5019",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "4fe895353bd94718",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "2293b2fd050cb4aa",
+  "lastOpenFiles": [
+    "Inicio.md",
+    "Inicio.md.tmp.17760.4f3bb2b51485",
+    "Politicas/Devoluciones y repuesto equivocado.md",
+    "Politicas/Devoluciones y repuesto equivocado.md.tmp.17760.e75c209e21ba",
+    "Politicas/Garantía de la tienda.md",
+    "Equivalencias/Equivalencias de bujías.md",
+    "Equivalencias/Homologado vs genérico.md",
+    "Vehiculos/Toyota Hilux 2.4 diésel.md",
+    "Vehiculos/Mazda 2 1.5.md",
+    "Vehiculos/Renault Logan 1.6.md",
+    "Vehiculos/Renault Logan 1.6.md.tmp.17760.247981be3abb",
+    "Vehiculos/Chevrolet Spark 1.2.md",
+    "Vehiculos",
+    "Fichas/Batería.md",
+    "Fichas/Aceite de motor.md",
+    "Fichas/Filtros Hilux.md",
+    "Fichas/Discos de freno.md",
+    "Fichas/Pastillas de freno.md",
+    "Fichas/Bobinas de encendido.md",
+    "Chevrolet Spark 1.2.md",
+    "Fichas/Bujías.md"
+  ]
+}
